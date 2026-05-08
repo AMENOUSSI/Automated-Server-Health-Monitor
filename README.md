@@ -1,5 +1,9 @@
 # Automated Server Health Monitor 🚀
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Postfix](https://img.shields.io/badge/Postfix-FFA500?style=for-the-badge&logo=mail-dot-ru&logoColor=white)
+
 A comprehensive system monitoring solution that combines a self-hosted network infrastructure with Python-driven automation to ensure high availability and proactive server management.
 
 ## 📌 Overview
@@ -8,7 +12,7 @@ This project was developed to automate the critical task of monitoring server re
 
 ## 🛠 Tech Stack
 
-* **Language:** Python 3.x
+* **Language:** Python 3.13.5
 * **Infrastructure:** * **Postfix:** Configured as a local Mail Transfer Agent (MTA) for secure report dispatching.
     * **DNS Server:** Self-hosted for internal hostname resolution and network reliability.
 * **OS Environment:** Linux Virtual Machine (VM).
