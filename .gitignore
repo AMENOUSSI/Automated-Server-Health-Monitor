@@ -1,0 +1,17 @@
+# Sensitive Configuration  (NEVER MOUNT)
+df_h_mail.json
+
+# Log files
+*.log
+df_h_mail.log
+
+# Python Virtual Environment 
+venv/
+.env
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Files System
+.DS_Store
