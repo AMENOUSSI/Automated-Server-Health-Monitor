@@ -1,0 +1,21 @@
+{
+    "smtp": {
+        "host": "smtp.yourserver.com",
+        "port": 587,
+        "use_starttls": true,
+        "verify_tls": true
+    },
+    "email": {
+        "from": "sender@example.com",
+        "to": ["admin@example.com"],
+        "subject": "Rapport Utilisation Disque - [Server Name]",
+        "logo_path": "path/to/your/logo.png"
+    },
+    "filesystem": {
+        "mountpoints": ["/", "/home", "/boot"]
+    },
+    "logging": {
+        "file": "df_h_mail.log",
+        "level": "INFO"
+    }
+}
