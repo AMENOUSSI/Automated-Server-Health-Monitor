@@ -55,6 +55,17 @@ As an aspiring **Data Engineer**, I believe that observability is the backbone o
  
    python3 ver2_mail.py
 
+   
+## 🐳 Run with Docker
+
+1. **Build the image:**
+   ```bash
+   docker build -t server-monitor 
+   
+2. Run the container:
+
+docker run --rm -v $(pwd)/df_h_mail.json:/app/df_h_mail.json server-monitor
+
 ## 📝 License
 
 This project is open-source and available under the [MIT License](LICENSE).
