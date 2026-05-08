@@ -1,0 +1,17 @@
+# Ignore local configuration files
+df_h_mail.json
+.env
+
+# Ignore the logs
+*.log
+df_h_mail.log
+
+# Ignore python useless files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Git documentation 
+.git
+.gitignore
