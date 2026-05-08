@@ -31,7 +31,7 @@ This project was developed to automate the critical task of monitoring server re
 
 ## 📊 Sample Output
 
-The system generates structured email reports as follows:
+The system generates structured email reports as shown below:
 
 ![Automated-Server-Health-Monitor](./server_monitor.png)
 
