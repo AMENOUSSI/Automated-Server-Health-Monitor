@@ -1,0 +1,2 @@
+# Add dependencies here if you use psutil or python-dotenv later
+# psutil==5.9.0
