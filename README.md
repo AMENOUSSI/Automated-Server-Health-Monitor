@@ -39,6 +39,22 @@ The system generates structured email reports as shown below:
 
 As an aspiring **Data Engineer**, I believe that observability is the backbone of any robust data architecture. By building the infrastructure (DNS/SMTP) from scratch before implementing the automation logic, I ensured a highly autonomous and secure monitoring environment. This project showcases my ability to bridge the gap between **Software Development** and **System Operations (DevOps)**.
 
+## ⚙️ Configuration & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/AMENOUSSI/Automated-Server-Health-Monitor.git](https://github.com/AMENOUSSI/Automated-Server-Health-Monitor.git)
+   cd Automated-Server-Health-Monitor
+2. Setup configuration:
+
+   Copy the example file and fill in your real credentials:
+
+    cp df_h_mail.json.example df_h_mail.json
+
+3. Run the script:
+ 
+   python3 ver2_mail.py
+
 ## 📝 License
 
 This project is open-source and available under the [MIT License](LICENSE).
