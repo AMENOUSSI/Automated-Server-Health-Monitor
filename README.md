@@ -1,4 +1,4 @@
-# Automated Server Health Monitor 🚀
+# Automated Server Health Monitor 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -6,11 +6,11 @@
 
 A comprehensive system monitoring solution that combines a self-hosted network infrastructure with Python-driven automation to ensure high availability and proactive server management.
 
-## 📌 Overview
+## Overview
 
 This project was developed to automate the critical task of monitoring server resources. Unlike standard scripts, this solution relies on a **fully self-administered infrastructure**, including a custom DNS server and a Postfix MTA, demonstrating a deep understanding of the entire data pipeline and system administration.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Language:** Python 3.13.5
 * **Infrastructure:** * **Postfix:** Configured as a local Mail Transfer Agent (MTA) for secure report dispatching.
@@ -18,7 +18,7 @@ This project was developed to automate the critical task of monitoring server re
 * **OS Environment:** Linux Virtual Machine (VM).
 * **Key Libraries:** `smtplib`, `email.mime`, `psutil` (or native subprocess calls).
 
-## ✨ Key Features
+## Key Features
 
 * **Real-time Storage Analysis:** Automatically monitors critical partitions such as `/home` and `/boot`.
 * **Automated HTML Reporting:** Generates clean, professional status tables including:
@@ -29,17 +29,17 @@ This project was developed to automate the critical task of monitoring server re
 * **Autonomous Alerting:** Scheduled dispatch of server health reports via the internal SMTP relay.
 * **Observability:** Provides immediate visibility into system health to prevent data pipeline failures.
 
-## 📊 Sample Output
+## Sample Output
 
 The system generates structured email reports as shown below:
 
 ![Automated-Server-Health-Monitor](./server_monitor.png)
 
-## 🚀 Why This Matters
+## Why This Matters
 
 As an aspiring **Data Engineer**, I believe that observability is the backbone of any robust data architecture. By building the infrastructure (DNS/SMTP) from scratch before implementing the automation logic, I ensured a highly autonomous and secure monitoring environment. This project showcases my ability to bridge the gap between **Software Development** and **System Operations (DevOps)**.
 
-## ⚙️ Configuration & Setup
+## Configuration & Setup
 
 1. **Clone the repository:**
    ```bash
@@ -56,7 +56,7 @@ As an aspiring **Data Engineer**, I believe that observability is the backbone o
    python3 ver2_mail.py
 
    
-## 🐳 Run with Docker
+## Run with Docker
 
 1. **Build the image:**
    ```bash
@@ -66,6 +66,6 @@ As an aspiring **Data Engineer**, I believe that observability is the backbone o
 
 docker run --rm -v $(pwd)/df_h_mail.json:/app/df_h_mail.json server-monitor
 
-## 📝 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
