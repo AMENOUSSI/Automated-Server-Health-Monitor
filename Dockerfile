@@ -1,17 +1,10 @@
-# Use a lightweight Python image
-FROM python:3.9-slim
+FROM python:3.13-slim
 
-# Set the working directory inside the container
 WORKDIR /app
 
-# Copy the requirements file (if you have one)
-# If you only use standard libraries, you can skip the pip install line
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt || true
-
-# Copy the script and the example config
+# Standard library only: nothing to install.
 COPY ver2_mail.py .
-COPY df_h_mail.json.example ./df_h_mail.json
 
-# Command to run the script
+# The configuration (with SMTP credentials) is mounted at run time, never baked
+# into the image. See "Run with Docker" in the README.
 CMD ["python", "ver2_mail.py"]

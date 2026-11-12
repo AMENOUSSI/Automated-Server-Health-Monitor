@@ -3,16 +3,22 @@
         "host": "smtp.yourserver.com",
         "port": 587,
         "use_starttls": true,
-        "verify_tls": true
+        "verify_tls": true,
+        "username": "",
+        "password": ""
     },
     "email": {
         "from": "sender@example.com",
         "to": ["admin@example.com"],
         "subject": "Rapport Utilisation Disque - [Server Name]",
-        "logo_path": "path/to/your/logo.png"
+        "organization": "Your Company",
+        "logo_path": "logo.png"
     },
     "filesystem": {
         "mountpoints": ["/", "/home", "/boot"]
+    },
+    "alert": {
+        "threshold_percent": 80
     },
     "logging": {
         "file": "df_h_mail.log",
